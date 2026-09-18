@@ -13,4 +13,4 @@ jobs:
         run: curl -sf "https://vids-scrapp.onrender.com/sync?secret=${{ secrets.RESOLVE_SECRET }}"
 
       - name: Avisarle al addon en Oracle que hay links nuevos
-        run: curl -sf "https://addonlatam.duckdns.org/admin/refresh-vids-manual?secret=${{ secrets.M3U_REFRESH_SECRET }}"
+        run: curl -sf "https://addon-lat.onrender.com/admin/refresh-vids-manual?secret=${{ secrets.M3U_REFRESH_SECRET }}"
