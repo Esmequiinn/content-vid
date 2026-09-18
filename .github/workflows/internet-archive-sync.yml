@@ -9,5 +9,5 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Avisarle al addon en Oracle que hay links nuevos
+      - name: Avisarle al addon
         run: curl -sf "https://addon-lat.onrender.com/admin/refresh-internet-archive?secret=${{ secrets.M3U_REFRESH_SECRET }}"
