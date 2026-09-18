@@ -1,0 +1,13 @@
+name: Sync internet-archive.json
+
+on:
+  push:
+    paths:
+      - 'internet-archive.json'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Avisarle al addon en Oracle que hay links nuevos
+        run: curl -sf "https://addonlatam.duckdns.org/admin/refresh-internet-archive?secret=${{ secrets.M3U_REFRESH_SECRET }}"
