@@ -9,6 +9,16 @@
     "calidad": "1080p",
     "titulo": "Sleepaway Camp",
   },
+   {
+    "imdbId": "tt1660055",
+    "tipo": "series",
+    "temporada": 1,
+    "episodio": 1,
+    "url": "https://archive.org/download/scooby-doo-misterios-s.a.-latino/Sdsa%20-%2001.ia.mp4",
+    "idioma": "Latino",
+    "calidad": "1080p",
+    "titulo": "Scooby-Doo! Misterios S.A.",
+  },
   {
     "imdbId": "tt1865718",
     "tipo": "series",
