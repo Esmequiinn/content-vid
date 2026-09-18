@@ -1,0 +1,22 @@
+ [
+  {
+    "imdbId": "tt0086320",
+    "tipo": "movie",
+    "temporada": null,
+    "episodio": null,
+    "url": "https://vids.st/storage/cdn/video150779/master.m3u8",
+    "idioma": "Latino",
+    "calidad": "1080p",
+    "titulo": "Sleepaway Camp",
+  },
+  {
+    "imdbId": "tt1865718",
+    "tipo": "series",
+    "temporada": 1,
+    "episodio": 1,
+    "url": "https://vids.st/storage/uploads/video150895/gravity-falls-s01-e01-webrip-720p-lat-hd.mkv",
+    "idioma": "Latino",
+    "calidad": "1080p",
+    "titulo": "Gravity Falls",
+  }
+]
